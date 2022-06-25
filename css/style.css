@@ -1,0 +1,147 @@
+.searchbar input{
+    background-color: black !important;
+    text-align: center;
+    border: none;
+    border-bottom: solid 3px rgba(255, 255, 255, 0.648);
+    margin-top: 50px;
+}
+body{
+    background-color: #000000f2;
+}
+.searchbar{
+    margin: 20px;
+    margin-top: 50px;
+}
+.sec2{
+    /* background-color: aqua; */
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    float: right;
+    margin-top: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.sec2-content{
+ 
+    position: absolute;
+    top: 100%;
+    /* background-color: rgba(137, 43, 226, 0.503); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s ease-in-out;
+    height: 100%;
+    width: 100%;
+    
+}
+.sec2-img:hover +.sec2-content{
+    background-color: rgba(0, 0, 0, 0.363);
+    transform:translateY(-100%);
+}
+.sec2:hover > .sec2-content{
+    background-color: rgba(255, 255, 255, 0.477);
+    transform:translateY(-100%);
+}
+.sec2-content span{
+    font-size: 40px;
+}
+.sec2-content p{
+    font-size: 20px;
+}
+#mydata{
+    width: 100%!important;
+}
+.sidebarimg{
+    width: 40px;
+    height: 60px;
+    margin-top: 30px;
+}
+.sidebarA{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #000;
+}
+.sidebarA ul{
+    list-style: none;
+    margin-top: 30px;
+}
+.sidebarA li{
+    margin-top: 150px;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.sidebarA li:hover{
+color: tomato;
+}
+.sidebarB{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar{
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    z-index: 999;
+    width: 20%;
+    background-color: white;
+}
+.sideicon{
+    color: white;
+}
+.sideicon i{
+    margin-left: 30px;
+    transition: all 0.2s;
+}
+.sideicon i:hover{
+    color: tomato;
+    }
+.sidebarA span{
+    margin: 30px;
+    color: rgba(255, 255, 255, 0.567);
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+.sidebarB i{
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+.sidebicons i{
+    font-size: 20px;
+}
+.Databar{
+    margin: 20px;
+    margin-top: 10px;
+}
+.Databar input{
+    background-color: black !important;
+    text-align: center;
+    border: none;
+    border-bottom: solid 3px rgba(255, 255, 255, 0.648);
+    margin-top: 20px;
+    padding-top: 20px;
+    color: white !important;
+}
+.sec4{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.btn{
+    margin: 20px;
+    margin-left: 200px;
+    background-color: #000 !important;
+    color: tomato;
+}
+.clr{
+    clear: right;
+}
